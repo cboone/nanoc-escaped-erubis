@@ -7,10 +7,17 @@ The Escaped Erubis filter works exactly like the regular Erubis filter, except t
 
 ## Installation.
 
+Just drop [the `filters` folder][filters] into your project's `/lib` directory.
 
+Or, if `/lib/filters` already exists, then add [the `escaped_erubis.rb` file][ee-f] to it.
+
+
+## Usage.
 
 
 [hpm]: http://hypsometry.com
 [e-er]: http://www.kuwata-lab.com/erubis/users-guide.02.html#tut-escape
 [Nanoc]: http://nanoc.stoneship.org/
 [n-er]: http://nanoc.stoneship.org/docs/api/3.1/Nanoc3/Filters/Erubis.html
+[filters]: http://github.com/cboone/nanoc-escaped-erubis/tree/master/filters/
+[ee-f]: http://github.com/cboone/nanoc-escaped-erubis/tree/master/filters/escaped_erubis.rb
