@@ -14,6 +14,16 @@ Or, if `/lib/filters` already exists, then add [the `escaped_erubis.rb` file][ee
 
 ## Usage.
 
+To filter an item with Escaped Erubis, use:
+
+    filter :escaped_erubis
+
+To filter a layout, use something like this:
+
+    layout '*', :escaped_erubis
+
+
+
 
 [hpm]: http://hypsometry.com
 [e-er]: http://www.kuwata-lab.com/erubis/users-guide.02.html#tut-escape
