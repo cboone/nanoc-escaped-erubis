@@ -23,6 +23,29 @@ To filter a layout, use something like this:
     layout '*', :escaped_erubis
 
 
+## More information.
+
+### Erubis.
+
+* The Erubis project site: [http://www.kuwata-lab.com/erubis/][Erubis]
+* The Erubis user's guide: [http://www.kuwata-lab.com/erubis/users-guide.html][eug]
+* `Erubis::EscapedEruby`: [http://www.kuwata-lab.com/erubis/users-guide.02.html#tut-escape][eee]
+
+
+### Nanoc filters.
+
+* The Nanoc user manual: [http://nanoc.stoneship.org/docs/][n-docs]
+* The filters section, in the Nanoc user manual: [http://nanoc.stoneship.org/docs/4-basic-concepts/#filters][n-docs-f]
+
+
+### Nanoc.
+
+* The Nanoc project site: [http://nanoc.stoneship.org/][Nanoc]
+* Nanoc's Mercurial project: [http://projects.stoneship.org/hg/nanoc/][n-hg]
+* Nanoc's Github mirror: [http://github.com/ddfreyne/nanoc][n-gh]
+* The Nanoc Trac (wiki and issue tracker): [http://projects.stoneship.org/trac/nanoc][n-t]
+* Nanoc's API documentation: [http://nanoc.stoneship.org/docs/api/3.1/][n-api]
+
 
 
 [hpm]: http://hypsometry.com
@@ -31,3 +54,12 @@ To filter a layout, use something like this:
 [n-er]: http://nanoc.stoneship.org/docs/api/3.1/Nanoc3/Filters/Erubis.html
 [filters]: http://github.com/cboone/nanoc-escaped-erubis/tree/master/filters/
 [ee-f]: http://github.com/cboone/nanoc-escaped-erubis/tree/master/filters/escaped_erubis.rb
+[n-gh]: http://github.com/ddfreyne/nanoc
+[n-docs-f]: http://nanoc.stoneship.org/docs/4-basic-concepts/#filters
+[n-docs]: http://nanoc.stoneship.org/docs/
+[n-hg]: http://projects.stoneship.org/hg/nanoc/
+[n-t]: http://projects.stoneship.org/trac/nanoc
+[n-api]: http://nanoc.stoneship.org/docs/api/3.1/
+[Erubis]: http://www.kuwata-lab.com/erubis/
+[eug]: http://www.kuwata-lab.com/erubis/users-guide.html
+[eee]: http://www.kuwata-lab.com/erubis/users-guide.02.html#tut-escape
