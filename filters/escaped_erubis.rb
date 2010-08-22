@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+require 'erubis'
+
 module Nanoc3::Filters
   class EscapedErubis < Nanoc3::Filter
     identifier :escaped_erubis
@@ -12,14 +14,17 @@ module Nanoc3::Filters
     #
     # @return [String] The filtered content
     def run(content, params={})
-      require 'erubis'
-
+      
       # Create context
       context = ::Nanoc3::Context.new(assigns)
 
       # Get result
-      ::Erubis::EscapedEruby.new(content, :filename => filename).result(context.get_binding { assigns[:content] })
+      EscapedErboutEruby.new(content, :filename => filename).result(context.get_binding { assigns[:content] })
     end
 
   end
+end
+
+class EscapedErboutEruby < Erubis::EscapedEruby
+  include Erubis::ErboutEnhancer
 end
